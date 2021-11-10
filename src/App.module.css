@@ -1,0 +1,52 @@
+.buttonGrid {
+  display: grid;
+  grid-template-columns: 30px 30px 30px 30px 30px 30px 30px;
+  justify-content: center; /*Centers grid horizontally*/
+
+  margin: auto;
+  width: 50%;
+}
+
+.container {
+  height: 100vw;
+  padding: 20px;
+
+  background: #83a4d4; /* fallback for old browsers */
+  background: linear-gradient(to left, #14703d, #b1dbcb);
+  
+  color: #171212;
+}
+
+.task {
+  text-align: center;
+  border: 4px solid black;
+  width: 60%;
+  margin: auto;
+  background: white;
+
+  font-family: "Times New Roman";
+  font-size: 60px;
+}
+
+.results {
+  text-align: center;
+  border: 2px solid rgb(58, 31, 179);
+  width: 40%;
+  height: 50px;
+  margin: auto;
+  background: white;
+
+  font-family: "Times New Roman";
+  font-size: 20px;
+}
+
+.answerInvisible {
+  transition: opacity 0s;
+  opacity: 0;
+}
+
+.answerVisible {
+  transition: opacity 1s;
+  opacity: 1;
+  font-size: x-large;
+}
